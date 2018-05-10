@@ -27,7 +27,7 @@ class ActivityResultManager(val activity: Activity) {
         }
     }
 
-    fun startForResult(intent: Intent, callBack: CallBack) {
+    fun startActivityForResult(intent: Intent, callBack: CallBack) {
         innerFragment?.startForResult(intent, callBack)
     }
 }
