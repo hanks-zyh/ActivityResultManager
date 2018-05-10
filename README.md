@@ -1,10 +1,10 @@
 # ActivityResultManager
-convert `activity.startForResult` to callback
+convert `activity.startActivityForResult` to callback
 
 
 ### Usage
 ``` kotlin
-ActivityResultManager(activity).startForResult(intent) { resultCode, data ->
+ActivityResultManager(activity).startActivityForResult(intent) { resultCode, data ->
     // handle data...
 }
 ```
